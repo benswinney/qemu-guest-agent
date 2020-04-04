@@ -106,7 +106,7 @@ spec:
     spec:
       containers:
       - name: qemu-guest-agent
-        image: docker.io/jerryhan/qemu-guest-agent:latest
+        image: docker.io/benswinney/qemu-guest-agent:okd4.4
         imagePullPolicy: IfNotPresent
         volumeMounts:
         - mountPath: /dev
